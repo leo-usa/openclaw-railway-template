@@ -85,6 +85,17 @@ RUN apt-get update \
     procps \
     python3 \
     build-essential \
+    chromium \
+    fonts-liberation \
+    libnss3 \
+    libatk-bridge2.0-0 \
+    libdrm2 \
+    libxcomposite1 \
+    libxdamage1 \
+    libxrandr2 \
+    libgbm1 \
+    libxkbcommon0 \
+    libasound2 \
   && rm -rf /var/lib/apt/lists/*
 
 WORKDIR /app
